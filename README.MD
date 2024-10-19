@@ -11,3 +11,9 @@ Welcome to my dotfiles repository! This repository contains configuration files 
   <!-- Vertical Bar below -->
   <img src="imgs/verticalWaybar.png" alt="Vertical Bar" style="height: 100%; width: 2%;" />
 </p>
+
+## Wallpaper:
+
+<p align="center">
+    <img src=".config/wallpaper/2560x1440.png">
+</p>
