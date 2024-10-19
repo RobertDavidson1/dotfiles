@@ -7,9 +7,10 @@ Welcome to my dotfiles repository! This repository contains configuration files 
 <p align="center" style="height: 24px; display: box;">
   <!-- Horizontal Bar on Top -->
   <img src="imgs/horizontalWaybar.png" alt="Horizontal Bar" style="width: 100%; height: auto;" />
-  
+  <p align="left"> 
   <!-- Vertical Bar below -->
   <img src="imgs/verticalWaybar.png" alt="Vertical Bar" style="height: 100%; width: 2%;" />
+  </p>
 </p>
 
 ## Wallpaper:
