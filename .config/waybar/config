@@ -10,7 +10,7 @@
             "default": ""
         },
         "persistent-workspaces": {
-            "*": 2
+            "*": 4
         }
     },
     "clock": {
@@ -100,20 +100,13 @@
     "*": 2
     }
 },
-"clock": {
-    "tooltip-format": "{calendar}",
-    "format-alt": "  {:%a, %d %b}",
-    "format": "{:%I\n%M}",
-    "interval": 1,
-    "on-click-right": "~/.config/rofi/bin/weather &"
-},
+
 "custom/updates": {
     "format": "󰣇",
+    "tooltip": false,
     "escape": true,
     "return-type": "json",
-    "exec": "~/.config/scripts/fetchUpdateCount.sh",
-    "on-click": "alacritty -e ~/.config/scripts/update.sh",
-    "interval": 60
+    "on-click": "alacritty -e ~/.config/scripts/update.sh"
 },
 "cpu": {
     "format": "",
