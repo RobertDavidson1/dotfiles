@@ -1,0 +1,166 @@
+@define-color red #ed8796;
+@define-color yellow #eed49f;
+@define-color peach #f5a97f;
+@define-color green #a6da95;
+@define-color sapphire #7dc4e4;
+@define-color blue #8aadf4;
+@define-color lavender #b7bdf8;
+@define-color mauve #c6a0f6;
+@define-color flamingo #f0c6c6;
+@define-color text #cad3f5;
+@define-color subtext #b8c0e0;
+@define-color surface2 #5b6078;
+@define-color surface0 #363a4f;
+@define-color base #24273a;
+@define-color mantle #1e2030;
+@define-color crust #181926;
+
+* {
+    all: unset;
+    font-family: ProFont IIx Nerd Font;
+}
+
+/* Shared Styles */
+
+window.sidebar #workspaces button.active,
+window.topbar #workspaces button.active {
+    background-color: @blue;
+}
+
+window.sidebar #workspaces button.active:hover,
+window.topbar #workspaces button.active:hover {
+    background-color: @blue;
+}
+
+window.sidebar #workspaces button:hover,
+window.topbar #workspaces button:hover {
+    background-color: @surface0;
+}
+
+#clock {
+    color: @blue;
+}
+
+#custom-updates {
+    color: @yellow;
+}
+
+#cpu {
+    color: @red;
+}
+
+#pulseaudio {
+    color: @peach;
+}
+
+#network {
+    color: @green;
+}
+
+#bluetooth {
+    color: @mauve;
+}
+
+tooltip {
+    background-color: @mantle;
+}
+
+tooltip label {
+    color: @text;
+}
+
+window.sidebar #custom-power:hover,
+window.topbar #custom-power:hover {
+    color: @red;
+}
+
+/* Side Bar */
+window.sidebar > box {
+    margin: 10px 0px 10px 10px;
+    background-color: @crust;
+    border-radius: 10px;
+    border: 1px solid @base;
+}
+
+window.sidebar #workspaces {
+    background-color: transparent;
+    padding: 20px 10px;
+}
+
+window.sidebar #workspaces button {
+    padding: 1px 6px;
+    margin-bottom: 10px;
+    background-color: @base;
+    border-radius: 100px;
+
+    transition-property: background-color;
+    transition-duration: 0.25s;
+}
+
+window.sidebar #custom-updates,
+window.sidebar #cpu,
+window.sidebar #pulseaudio,
+window.sidebar #network,
+window.sidebar #bluetooth,
+window.sidebar #custom-power {
+    padding: 10px 10px;
+    margin: 0px 0px 10px 0px;
+
+    background-color: @mantle;
+    border-radius: 0px;
+}
+
+window.sidebar #custom-power {
+    color: @text;
+    margin-bottom: 0px;
+    transition-property: color;
+    transition-duration: 0.25s;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Top bar */
+window.topbar > box {
+    margin: 10px 0px 10px 10px;
+    background-color: @crust;
+    border-radius: 10px;
+    border: 1px solid @base;
+}
+
+window.topbar #workspaces {
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+window.topbar #workspaces button {
+    padding: 1px 6px;
+    margin-right: 10px;
+    background-color: @base;
+    border-radius: 100px;
+
+    transition-property: background-color;
+    transition-duration: 0.25s;
+}
+
+window.topbar #custom-updates,
+window.topbar #cpu,
+window.topbar #pulseaudio,
+window.topbar #network,
+window.topbar #bluetooth,
+window.topbar #custom-power {
+    min-width: 4em;
+    padding: 10px 10px;
+    margin: 0px 0px 0px 10px;
+
+    background-color: @mantle;
+    border-radius: 0px;
+}
+
+window.topbar #custom-power {
+    color: @text;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: @mantle;
+    transition-property: color;
+    transition-duration: 0.25s;
+    border-radius: 0px 10px 10px 0px;
+}
