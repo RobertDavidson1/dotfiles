@@ -3,7 +3,7 @@
 -   Welcome to my dotfiles repository! This repository contains configuration files and scripts to set up and manage my development environment.
 -   The colorscheme is based on <a href="https://catppuccin.com/palette"> Catppuccin Macchiato </a>
 
-## Waybar:
+## Waybar (Horizontal and Vertical)
 
 <p align="center" style="height: 24px; display: box;">
 
@@ -23,4 +23,10 @@
 
 <p align="center">
     <img src="imgs/terminalScreenshot.png">
+</p>
+
+## bpytop
+
+<p align"center">
+  <img src="imgs/bpytop.png">
 </p>
